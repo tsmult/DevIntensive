@@ -85,6 +85,51 @@
             android:layout_marginBottom="@dimen/spacing_small_8">
 
             <ImageView style="@style/icon.left"
+                       android:src="@drawable/ic_call_black_24dp"
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/size_big_72"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/spacing_medium_32"
+                android:layout_marginRight="@dimen/spacing_normal_16"
+                >
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText style="@style/edit_view_disabled"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:hint="@string/mobile"
+                              android:inputType="phone"
+                              android:text="9284059589"
+                        />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView style="@style/icon.right"
+                       android:src="@drawable/ic_phone_in_talk_black_24dp"
+                />
+
+
+        </LinearLayout>
+        //разделитель
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_size_2"
+            android:background="@color/grey_lite"
+            android:layout_marginLeft="@dimen/spasing_larger_72"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/spacing_small_8"
+            android:layout_marginBottom="@dimen/spacing_small_8">
+
+            <ImageView style="@style/icon.left"
                        android:src="@drawable/ic_mail_black_24dp"
                 />
             <LinearLayout
