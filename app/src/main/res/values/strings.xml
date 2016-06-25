@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">DevIntensive</string>
+    <string name="FIO">Кононенко Сергей</string>
+    <string name="rating">Рейтинг</string>
+    <string name="write_line_code">Написано строк кода</string>
+    <string name="project">Проектов</string>
+    <string name="mobile">Мобильный телефон</string>
+    <string name="e_mail">E-mail</string>
+    <string name="profile_vk">Профиль в vk</string>
+    <string name="rep_str">Репозиторий</string>
+    <string name="about_me">О себе</string>
+        
 </resources>
