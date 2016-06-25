@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity implements ConstantManager {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-                Log.d(TAG, "onCreate");
+                Log.d(TAG_D, "onCreate");
 
                         if (savedInstanceState == null) {
                         //если создалось впервые
@@ -27,38 +27,38 @@ public class MainActivity extends AppCompatActivity implements ConstantManager {
                 @Override
         protected void onStart() {
                 super.onStart();
-                Log.d(TAG, "onStart");
+                Log.d(TAG_D, "onStart");
 
                     }
 
                 @Override
         protected void onResume() {
                 super.onResume();
-                Log.d(TAG, "onResume");
+                Log.d(TAG_D, "onResume");
             }
 
                 @Override
         protected void onPause() {
                 super.onPause();
-                Log.d(TAG, "onPause");
+                Log.d(TAG_D, "onPause");
            }
 
                 @Override
         protected void onStop() {
                 super.onStop();
-                Log.d(TAG, "onStop");
+                Log.d(TAG_D, "onStop");
 
                     }
 
                 @Override
         protected void onDestroy() {
                 super.onDestroy();
-                Log.d(TAG, "onDestroy");
+                Log.d(TAG_D, "onDestroy");
             }
                     @Override
         protected void onRestart() {
                 super.onRestart();
-                Log.d(TAG, "onRestart");
+                Log.d(TAG_D, "onRestart");
             }
 
 
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements ConstantManager {
                 @Override
         public void onSaveInstanceState(Bundle outState) {
                 super.onSaveInstanceState(outState);
-                Log.d(TAG, "onSaveInstanceState");
+                Log.d(TAG_D, "onSaveInstanceState");
 
     }
 }
